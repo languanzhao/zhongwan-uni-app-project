@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "考拉上学团队",
+  "usingComponents": {
+    "u-sticky": "/uview/components/u-sticky/u-sticky",
+    "role-adviser": "/pages/user/components/role-adviser"
+  }
+}

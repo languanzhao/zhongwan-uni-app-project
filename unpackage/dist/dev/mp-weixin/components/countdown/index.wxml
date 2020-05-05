@@ -1,0 +1,1 @@
+<view class="countdown data-v-15c624c0"><view class="{{['data-v-15c624c0',!state?'getting':'noGet']}}">{{state?'稍等'+secondsTime+'s':'获取验证码'}}</view></view>

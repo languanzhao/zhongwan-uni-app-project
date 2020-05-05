@@ -1,0 +1,1 @@
+<view class="setting"><list-cell vue-id="133e44a2-1" list="{{list}}"></list-cell><button class="primary" type="primary" data-event-opts="{{[['tap',[['toLoginOut',['$event']]]]]}}" bindtap="__e">退出登录</button></view>

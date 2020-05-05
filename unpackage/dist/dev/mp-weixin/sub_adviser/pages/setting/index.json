@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "u-cell-group": "/uview/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview/components/u-cell-item/u-cell-item",
+    "password-input": "/components/passwordInput/index"
+  }
+}

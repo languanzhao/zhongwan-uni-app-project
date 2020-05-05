@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "申请退学",
+  "usingComponents": {
+    "school-card": "/components/school-card/index"
+  }
+}

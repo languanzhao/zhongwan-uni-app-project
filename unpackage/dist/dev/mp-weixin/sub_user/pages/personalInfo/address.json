@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "编辑通讯地址",
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address"
+  }
+}

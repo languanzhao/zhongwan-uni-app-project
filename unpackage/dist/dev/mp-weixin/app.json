@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/login/register",
+    "pages/login/enterPage",
+    "pages/category/category",
+    "pages/news/index",
+    "pages/user/user",
+    "pages/search/index",
+    "pages/search/searchResult"
+  ],
+  "subPackages": [
+    {
+      "root": "sub_user",
+      "pages": [
+        "pages/school-collected/index",
+        "pages/consulted/index",
+        "pages/personalInfo/index",
+        "pages/personalInfo/info-edit",
+        "pages/personalInfo/address",
+        "pages/personalInfo/houseAddress",
+        "pages/wallet/index",
+        "pages/wallet/account",
+        "pages/wallet/accountDetail",
+        "pages/progress/index",
+        "pages/progress/leaveSchool",
+        "pages/about/index",
+        "pages/invited/index",
+        "pages/poster/index"
+      ]
+    },
+    {
+      "root": "sub_school",
+      "pages": [
+        "pages/detail/index",
+        "pages/apply/index",
+        "pages/apply/summary",
+        "pages/apply/transferAccounts",
+        "pages/detail/img-video"
+      ]
+    },
+    {
+      "root": "sub_tim",
+      "pages": [
+        "pages/joinUs/index"
+      ]
+    },
+    {
+      "root": "sub_adviser",
+      "pages": [
+        "pages/setting/index",
+        "pages/setting/bindCard",
+        "pages/setting/payPassword",
+        "pages/personalInfo/index",
+        "pages/personalInfo/IDAuth",
+        "pages/wallet/index",
+        "pages/wallet/accountDetail",
+        "pages/wallet/withdraw",
+        "pages/wallet/withdrawDetail",
+        "pages/team/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "考拉上学",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#fa436a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/tab-cate.png",
+        "selectedIconPath": "static/tab-cate-current.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "iconPath": "static/tab-cart.png",
+        "selectedIconPath": "static/tab-cart-current.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tab-my.png",
+        "selectedIconPath": "static/tab-my-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

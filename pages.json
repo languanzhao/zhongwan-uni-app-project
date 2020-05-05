@@ -1,0 +1,311 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path": "pages/login/enterPage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#12aca8",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/search/searchResult",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "sub_user",
+			"pages": [{
+					"path": "pages/school-collected/index",
+					"style": {
+						"navigationBarTitleText": "我收藏的院校",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/consulted/index",
+					"style": {
+						"navigationBarTitleText": "我咨询过的院校",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/personalInfo/index",
+					"style": {
+						"navigationBarTitleText": "个人信息"
+					}
+				},
+				{
+					"path": "pages/personalInfo/info-edit",
+					"style": {
+						"navigationBarTitleText": "编辑信息"
+					}
+				},
+				{
+					"path": "pages/personalInfo/address",
+					"style": {
+						"navigationBarTitleText": "编辑通讯地址"
+					}
+				},
+				{
+					"path": "pages/personalInfo/houseAddress",
+					"style": {
+						"navigationBarTitleText": "编辑户籍地址"
+					}
+				},
+				{
+					"path": "pages/wallet/index",
+					"style": {
+						"navigationBarTitleText": "钱包"
+					}
+				},
+				{
+					"path": "pages/wallet/account",
+					"style": {
+						"navigationBarTitleText": "我的账单",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/wallet/accountDetail",
+					"style": {
+						"navigationBarTitleText": "账单详情"
+					}
+				},
+				{
+					"path": "pages/progress/index",
+					"style": {
+						"navigationBarTitleText": "入学进度"
+					}
+				},
+				{
+					"path": "pages/progress/leaveSchool",
+					"style": {
+						"navigationBarTitleText": "申请退学"
+					}
+				},
+				{
+					"path": "pages/about/index",
+					"style": {
+						"navigationBarTitleText": "关于我们"
+					}
+				},
+				{
+					"path": "pages/invited/index",
+					"style": {
+						"navigationBarTitleText": "我邀约的用户",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "pages/poster/index",
+					"style": {
+						"navigationBarTitleText": "邀请"
+					}
+				}
+			]
+		},
+		{
+			"root": "sub_school",
+			"pages": [{
+					"path": "pages/detail/index",
+					"style": {
+						"navigationBarTitleText": "院校详情"
+					}
+				},
+				{
+					"path": "pages/apply/index",
+					"style": {
+						"navigationBarTitleText": "填选报考信息"
+					}
+				},
+				{
+					"path": "pages/apply/summary",
+					"style": {
+						"navigationBarTitleText": "助学补贴说明"
+					}
+				},
+				{
+					"path": "pages/apply/transferAccounts",
+					"style": {
+						"navigationBarTitleText": "转账信息"
+					}
+				},
+				{
+					"path": "pages/detail/img-video",
+					"style": {
+						"navigationBarTitleText": "图片视频"
+					}
+				}
+			]
+		},
+		{
+			"root": "sub_tim",
+			"pages": [{
+				"path": "pages/joinUs/index",
+				"style": {
+					"navigationBarTitleText": "商务合作"
+				}
+			}]
+		},
+		{
+			"root": "sub_adviser",
+			"pages": [{
+					"path": "pages/setting/index",
+					"style": {
+						"navigationBarTitleText": "设置"
+					}
+				},
+				{
+					"path": "pages/setting/bindCard",
+					"style": {
+						"navigationBarTitleText": "绑定银行卡"
+					}
+				},
+				{
+					"path": "pages/setting/payPassword",
+					"style": {
+						"navigationBarTitleText": "设置密码"
+					}
+				},
+				{
+					"path": "pages/personalInfo/index",
+					"style": {
+						"navigationBarTitleText": "个人信息"
+					}
+				},
+				{
+					"path": "pages/personalInfo/IDAuth",
+					"style": {
+						"navigationBarTitleText": "身份认证"
+					}
+				},
+				{
+					"path": "pages/wallet/index",
+					"style": {
+						"navigationBarTitleText": "钱包"
+					}
+				},
+				{
+					"path": "pages/wallet/accountDetail",
+					"style": {
+						"navigationBarTitleText": "账单明细"
+					}
+				},
+				{
+					"path": "pages/wallet/withdraw",
+					"style": {
+						"navigationBarTitleText": "提现明细"
+					}
+				},
+				{
+					"path": "pages/wallet/withdrawDetail",
+					"style": {
+						"navigationBarTitleText": "提现详情"
+					}
+				},
+				{
+					"path": "pages/team/index",
+					"style": {
+						"navigationBarTitleText": "考拉上学团队"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "考拉上学",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/tab-cate.png",
+				"selectedIconPath": "static/tab-cate-current.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"iconPath": "static/tab-cart.png",
+				"selectedIconPath": "static/tab-cart-current.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview/components/u-$1/u-$1.vue"
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": []
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "院校详情",
+  "usingComponents": {
+    "u-sticky": "/uview/components/u-sticky/u-sticky",
+    "u-skeleton": "/uview/components/u-skeleton/u-skeleton",
+    "recommend-list": "/components/school-list/recommend"
+  }
+}

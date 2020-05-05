@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我收藏的院校",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "school-list": "/components/school-list/index"
+  }
+}

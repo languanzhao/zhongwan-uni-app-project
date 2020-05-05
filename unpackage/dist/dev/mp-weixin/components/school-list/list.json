@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "easy-loadimage": "/components/easy-loadimage/easy-loadimage",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "recommend-list": "/components/school-list/recommend",
+    "video-list": "/components/school-list/video"
+  }
+}

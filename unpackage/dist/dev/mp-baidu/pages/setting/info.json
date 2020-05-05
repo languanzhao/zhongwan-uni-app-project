@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人资料",
+  "component": true,
+  "usingComponents": {
+    "evan-radio": "/components/evan-radio/evan-radio",
+    "evan-radio-group": "/components/evan-radio/evan-radio-group"
+  }
+}

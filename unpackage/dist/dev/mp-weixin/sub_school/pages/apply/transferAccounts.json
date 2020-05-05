@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "转账信息",
+  "usingComponents": {
+    "upload-imgs": "/components/upload-imgs/index"
+  }
+}

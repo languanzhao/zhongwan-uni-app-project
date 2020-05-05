@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "编辑户籍地址",
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address"
+  }
+}

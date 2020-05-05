@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "u-skeleton": "/uview/components/u-skeleton/u-skeleton",
+    "simple-address": "/components/simple-address/simple-address",
+    "school-list": "/components/school-list/list"
+  }
+}

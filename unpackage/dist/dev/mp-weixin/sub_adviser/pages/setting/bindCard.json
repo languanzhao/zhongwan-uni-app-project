@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "绑定银行卡",
+  "usingComponents": {
+    "u-cell-group": "/uview/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/uview/components/u-cell-item/u-cell-item"
+  }
+}

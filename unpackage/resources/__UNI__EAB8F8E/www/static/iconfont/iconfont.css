@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1723469 */
+  src: url('http://at.alicdn.com/t/font_1723469_gphv9cv1ck6.eot');
+  src: url('http://at.alicdn.com/t/font_1723469_gphv9cv1ck6.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1723469_gphv9cv1ck6.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_1723469_gphv9cv1ck6.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1723469_gphv9cv1ck6.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1723469_gphv9cv1ck6.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.xiaoxi::before{
+  content: '\e62f'
+}
+/* 箭头向右 */
+.icon-you::before{
+  content: '\e6c2'
+}
+.icon-member::before{
+  content:'\e701'
+}
+.icon-wallet::before{
+	content: '\e61f';
+}
+/* 地址 */
+.icon-address::before{
+	content:'\e62e'
+}
+.icon-collect::before{
+	content: '\e614';
+}
+.icon-setting::before{
+	content: '\e615';
+}
+.icon-search::before{
+	content: '\e60f';
+}
+/* 取消 */
+.icon-cancel::before{
+	content: '\e627';
+}
+/* 更多 */
+.icon-more::before{
+	content: '\e633';
+}
+/* 箭头下 */
+.icon-jiantouxia::before{
+	content: '\e605';
+}
+/* 箭头上 */
+.icon-jiantoushang::before{
+	content: '\e606';
+}
+/* 爱心 */
+.icon-aixin::before{
+	content: '\e613';
+}
+/* 学历 */
+.icon-edu::before{
+	content: '\e63a';
+}
+/* 客服 */
+.icon-kefu::before{
+	content: '\e68c';
+}
+/* 分享 */
+.icon-share::before{
+	content: '\e63b';
+}
+/* 报名 */
+.icon-baoming::before{
+	content: '\e607';
+}
+/* 不喜欢 */
+.icon-dislike::before{
+	content: '\e60c';
+}
+/* 筛选 */
+.icon-shaixuan::before{
+	content: '\e621';
+}
+/* 选中 */
+.icon-checked::before{
+	content: '\e73b';
+}
+/* 未选中 */
+.icon-noChecked::before{
+	content: '\e616';
+}
+/* 支付宝 */
+.icon-zhifubao::before{
+	content: '\e64e';
+}
+/* 微信 */
+.icon-weixin::before{
+	content: '\e62b';
+}
+/* 星级中 */
+.icon-xingChecked::before{
+	content: '\e601';
+}
+/* 星级空 */
+.icon-xingNoChecked::before{
+	content: '\e62d';
+}
+/* 余额 */
+.icon-balance::before{
+	content: '\e618';
+}
+/* 意向 */
+.icon-yixiang::before{
+	content: '\e626';
+}
+/* 视频 */
+.icon-video::before{
+	content: '\e682';
+}
+/* 下载 */
+.icon-downLoad::before{
+	content: '\e64a';
+}
+/* 说明 */
+.icon-summary::before{
+	content: '\e683';
+}
+/* 播放 */
+.icon-videoPlay::before{
+	content: '\e617';
+}
+/* 图片 */
+.icon-pic::before{
+	content: '\e610';
+}

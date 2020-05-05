@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1723469 */
+  src: url('//at.alicdn.com/t/font_1723469_lbb7y7rbmz.eot');
+  src: url('//at.alicdn.com/t/font_1723469_lbb7y7rbmz.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1723469_lbb7y7rbmz.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1723469_lbb7y7rbmz.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1723469_lbb7y7rbmz.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1723469_lbb7y7rbmz.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.xiaoxi::before{
+  content: '\e62f'
+}
+.icon-you::before{
+  content: '\e639'
+}
+.icon-member::before{
+  content:'\e701'
+}
+.icon-wallet::before{
+	content: '\e61f';
+}
+.icon-address::before{
+	content:'\e62e'
+}
+.icon-collect::before{
+	content: '\e614';
+}
+.icon-setting::before{
+	content: '\e615';
+}
